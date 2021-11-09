@@ -25,7 +25,7 @@ dependencies {
   ### Example
   
  ```
-  String url = "https://jsonplaceholder.typicode.com/posts";
+  	String url = "https://jsonplaceholder.typicode.com/posts"; //api url (get)
         Toaster toaster = new Toaster(this, url);
         toaster.geString(new Toaster.VolleyCallBack() {
             @Override
